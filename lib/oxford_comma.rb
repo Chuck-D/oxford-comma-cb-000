@@ -8,7 +8,7 @@ def oxford_comma(array)
   elsif array.length >3
     my_str = array.join(',')
     x = my_str.pop
-    return my_str + 'and'+ x
+    my_str + 'and'+ x
     
 end
 end
